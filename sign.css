@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-image: url('heart.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container
+{
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 30px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+.btn-p1{
+    display: inline-block;
+    margin-right: 10px;;
+}
+.btn-p2{
+  display: inline-block;
+  margin-left: 10px;
+}
+.btn button{
+    width:200px;
+    height: 40px;
+    font-size: 20+px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
